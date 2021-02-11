@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+.App {
+    justify-content: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.navtext {
+    z-index: 999999;
+}
+ul {
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.secondhalf-nav {
+    position: absolute;
+    inset: 0px;
+    background: linear-gradient(300deg, #008712 50%, rgb(233, 246, 199) 90%);
+    transform: skew(20deg);
+    margin-right: -20px;
+}
+.page {
+    display: flex;
+}
+.date {
+    background-color: rgb(223, 254, 228);
+}
+.question-header {
+    background: linear-gradient(
+        to right,
+        rgb(4, 163, 18) 20%,
+        rgb(233, 246, 199) 80%
+    );
+    height: 5vh;
+    border-radius: 5px;
+}
+.question {
+    background-color: rgb(240, 255, 244);
+    /* background: linear-gradient(
+    180deg,
+    rgb(103, 238, 114) 10%,
+    rgb(226, 241, 233) 50%
+  ); */
+    border-style: solid;
+    border-color: rgb(103, 233, 103);
+    border-radius: 10px;
+    padding: 0px;
+}
+.buttonB {
+    margin-bottom: 2%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232);
+    border-style: none;
+}
+.buttonB:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.buttonA:hover {
+    cursor: pointer;
+}
+.buttonA {
+    border-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: rgb(80, 159, 233);
+}
+.buttonC {
+    margin-bottom: 2%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: green;
+    border-style: none;
+    width: 40%;
+}
+.statistics {
+    border-style: solid;
+    border-color: rgb(103, 233, 103);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 99px;
+}
+.page {
+    justify-content: space-around;
+}
+.instructions {
+    background: linear-gradient(
+        300deg,
+        rgb(1, 183, 18) 20%,
+        rgb(233, 246, 199) 90%
+    );
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.prev {
+    border-style: solid;
+    border-color: rgb(103, 233, 103);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.contact {
+    border-style: solid;
+    border-color: rgb(103, 233, 103);
+    background: linear-gradient(
+        160deg,
+        rgb(76, 192, 32) 20%,
+        rgb(251, 254, 224) 80%
+    );
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 89px;
+    padding-left: 20px;
+}
+.footer {
+    border-color: rgb(103, 233, 103);
+    background-color: rgb(238, 249, 189);
+    background: linear-gradient(
+        180deg,
+        rgb(76, 192, 32) 20%,
+        rgb(238, 249, 189) 80%
+    );
+    border-radius: 5px;
+    padding: 20px;
+}
+.lable {
+    color: rgb(4, 197, 4);
+}
+.input {
+    border: 2px solid rgb(103, 233, 103);
+    padding: 6px;
+    border-radius: 10px;
+}
+.loginbtn {
+    color: green;
+}
+.img {
+    height: 25%;
+    width: 10%;
+}
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.admin-pannel {
+    /* background-color: #008712; */
+    /* justify-content: center; */
+    margin-left: 35%;
+    text-align: center;
+    display: inline-block;
+}
